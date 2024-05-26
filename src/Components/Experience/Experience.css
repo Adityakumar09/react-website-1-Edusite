@@ -1,7 +1,7 @@
 .experience{
     min-height: 100vh;
-    background-color: rgb(149, 160, 160);
-    padding: 5px 0;
+    background-color:  #7987c7;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,8 +9,9 @@
 }
 .experience .jo{
     font-size: 50px;
-    color: #fff;
+    color: black;
     font-weight: 600;
+    padding-top: 5px;
 }
 .experience .gt{
     transform: translateX(-290%);
@@ -25,7 +26,9 @@
     gap: 15px;
     align-items: center;
     justify-items: center;
-    background: #000;
+    background-color: #e924e9;
+background-image: linear-gradient(0deg, #1815de 0%, #97D9E1 100%);
+
     overflow: hidden;
 }
 .para{
@@ -61,7 +64,7 @@
     animation: fadedn 28s linear ;
 }
 #para5{
-    background-color: #7452e5;
+    background-color: #39d5d7;
     margin-bottom: 50px;
     animation: fadeout 18s linear ;
 
@@ -175,7 +178,7 @@
     left: 0;
     height: 110%;
     width: 100%;
-    background: rgb(149, 160, 160);
+    background:  #7987c7;
     border-left: 2px solid #3dd6e1;
     animation: typing 3s steps(10) infinite;
   }
@@ -243,8 +246,10 @@
   }
 
   .agree{
-    text-align: center;width: 100%;color: #fff;
-    padding: 50px;background-color: rgba(40, 59, 226, 0);
+    text-align: center;width: 100%;color: #f71414;
+    padding: 50px; background-color: #e924e9;
+    background-image: linear-gradient(0deg, #7987c7 0%, #97D9E1 100%);
+    
     line-height: 1.5;
     position: relative;
   }
@@ -270,8 +275,10 @@
     z-index: 0;
   }
   .disagree{
-    text-align: center;width: 100%;color: #ffffff;
-    padding: 50px;background-color: rgba(27, 23, 23, 0);
+    text-align: center;width: 100%;color: #f71414;
+    padding: 50px; background-color: #e924e9;
+background-image: linear-gradient(0deg, #7987c7 0%, #97D9E1 100%);
+
     line-height: 1.5; 
     position: relative;
   }
