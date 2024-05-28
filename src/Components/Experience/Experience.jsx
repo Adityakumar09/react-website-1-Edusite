@@ -48,7 +48,9 @@ const Experience = () => {
 
             <div className="consent" style={{overflow:"hidden",borderBottomLeftRadius:`${active===false?'70px':''}`}}>
                 <div className='headingg2'><h3>PLEASE TRUST ONE LAST TIME</h3> <h3> CAN YOU GIVE ME A CHANCE</h3> <h3 id='ki'> I LIKE YOU</h3></div>
-                <div className='headingg4'><h1>WILL YOU BE MY KANHA </h1></div>
+                <div className='headingg4'><h1>WILL YOU BE MY KANHA <div className="img-container">
+                    <img src={cute3} alt="Example GIF" className='gif7'/>
+                </div> </h1></div>
                 <div className='headingg'><h1>DO YOU LIKE ME ?</h1></div>
                 <div className="img-container">
                     <img src={cute4} alt="Example GIF" className='gif13'/>
@@ -59,48 +61,56 @@ const Experience = () => {
                 <div className="img-container">
                     <img src={cute1} alt="Example GIF" className='gif5'/>
                 </div>
-                <div className="img-container2">
-                    <img src={cute5} alt="Example GIF" className='gif9'/>
-                </div>
-                <div className="img-container2">
-                    <img src={cute6} alt="Example GIF" className='gif10'/>
-                </div>
+                
+                
                 <div className="btns">
                     <button className={`btnn ${active==="yes"?'active':''}`} onClick={()=>{setActive("yes");active==='yes'?setActive(false):""}}>
                         YES
+                        <div className="img-container2">
+                    <img src={cute5} alt="Example GIF" className='gif9'/>
+                </div>
                     </button>
                     <button className={`btnn ${active==="no"?'active':''}`} onClick={()=>{setActive("no");active==='no'?setActive(false):""}}>
                         NO
+                        <div className="img-container2">
+                    <img src={cute6} alt="Example GIF" className='gif10'/>
+                </div>
                     </button>
                 </div>
-                <div className="img-container">
-                    <img src={cute3} alt="Example GIF" className='gif7'/>
-                </div>
-                <div className='headingg3'>Thank You for changing my behaviour and making me a little extrovert</div> <div className='headingg9'>giving me that much courage to confess my feelings ,unlike 9th class .</div>
+                
+                <div className='headingg3'>Thank You for changing my behaviour and making me a little extrovert</div> <div className='headingg9'>giving me that much courage to confess my feelings ,unlike 9th class .</div><div className='headingg9'>I won't be having any regrets &#128540; </div>
             </div>
 
             <div className="agree" style={{display:`${active==="yes"?"":"none"}`,borderBottomLeftRadius:`${active!==false?'70px':''}`}}>
             <div className='fgh'> 
-            <h2 style={{fontSize:"50px",marginBottom:"30px"}} >	&#10084; 	&#10084; THANK YOU 	&#10084; 	&#10084; </h2>
-                <h2> Thank You for trusting me <br  /> I promise i will try to make you always happy <br />i promise i will be always loyal to you <br />i will proove that this will be the best decision of your life </h2></div>
-                <div className="img-container">
+            
+            <div className="img-container5">
                     <img src={cute8} alt="Example GIF" className='gif1'/>
                 </div>
-                <div className="img-container">
+            <div className="headr">
+            <h2 style={{fontSize:"50px",marginBottom:"30px"}} >	&#10084; 	&#10084; THANK YOU 	&#10084; 	&#10084; </h2>
+                <h2> Thank You for trusting me </h2> <h2> I promise i will try to make you always happy </h2> <h2>i promise i will be always loyal to you </h2> <h2>i will proove that this will be the best decision of your life </h2></div>
+                
+            </div>
+                <div className="img-container5">
                     <img src={cute8} alt="Example GIF" className='gif2'/>
                 </div>
             </div>
 
             <div className="disagree" style={{display:`${active==="no"?"":"none"}`,borderBottomLeftRadius:`${active!==false?'70px':''}`}}>
-                <div className='fgh'>    <h2 style={{fontSize:"30px",marginBottom:"30px"}}>I RESPECT YOUR DECISION </h2>
-                    <h2> Sorry  </h2></div>
+                <div className='fgh'>    
+                <div className="headr1">
+                    <h2 style={{fontSize:"30px",marginBottom:"15px",color:"white"}}>I RESPECT YOUR DECISION </h2>
+                    <h2 style={{color:"white",fontSize:"30px"}}> Sorry  </h2>
                     <h2 style={{color:"white"}}>I wish i could rewrite our friendship </h2>
                     <h2 style={{color:"white"}} >and delete the part in which i felt in love with you</h2>
+                </div>
                 <div className="img-container">
                     <img src={sad} alt="Example GIF" className='gif'/>
                 </div>
                 <div className="img-container2">
                     <img src={cute7} alt="Example GIF" className='gif11'/>
+                </div>
                 </div>
             </div>
         </div>

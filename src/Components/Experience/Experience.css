@@ -248,24 +248,27 @@ outline: 2px solid black;
     right: 390px;
     max-width: 70px;
   }
+
   .gif9{
     position: absolute;
-    bottom: 282px;
-    left: 380px;
     max-width: 120px;
+    transform: translateX(-50%);
+    top: -121px;
   }
   .gif10{
     position: absolute;
-    bottom: 280px;
-    right: 400px;
     max-height: 100px;
     z-index: 40;
+    transform: translateX(-50%);
+    top: -101px;
   }
+
   .gif11{
-    position: absolute;
+    /* position: absolute;
     bottom: 50px;
-    right: 100px;
+    right: 100px; */
     min-height: 100px;
+    flex-basis: 10%;
   }
   .gif13{
     right: 40px;
@@ -312,6 +315,7 @@ outline: 2px solid black;
     border-radius: 25px;
     cursor: pointer;
     z-index: 50;
+    position: relative;
   }
   .active{
     background-color: #ff00c3;
@@ -328,7 +332,6 @@ outline: 2px solid black;
     position: relative;
     z-index: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #fc60d7;
@@ -336,14 +339,9 @@ outline: 2px solid black;
     outline: 2px solid black;
   }
   .gif1{
-    position: absolute;
-    top: 100px;
     min-height: 100px;
   }
   .gif2{
-    position: absolute;
-    top: 100px;
-    left: 900px;
     min-height: 100px;
     
   }
@@ -376,11 +374,19 @@ min-height: 300px;
   .fgh{
     z-index: 200;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headr1{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 90%;
   }
   .disagree .img-container{
     position: absolute;
-    top: 20px;
-    left: 40%;
+    
+    left: 40%; 
     z-index: 0;
   }
   .gif{
