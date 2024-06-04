@@ -9,7 +9,7 @@ import Campus from './Components/campus/Campus.jsx'
 import Testimonials from './Components/Testimonials/Testimonials.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import Footer from './Components/Footer/Footer.jsx'
-import Experience from './Components/Experience/Experience.jsx'
+// import Experience from './Components/Experience/Experience.jsx'
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
         <About />
         <Title subtitle='Gallery' title='Campus Photos' />
         <Campus />
-        <Experience />
+        {/* <Experience /> */}
         <Title subtitle='TESTIMONIALS' title='What student says' />
         <Testimonials />
         <Title subtitle='CONTACT US' title='Get In Touch' />
